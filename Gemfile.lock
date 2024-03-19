@@ -184,6 +184,7 @@ GEM
 PLATFORMS
   aarch64-linux
   arm64-darwin-22
+  x86_64-darwin-21
 
 DEPENDENCIES
   aws-sdk-ssm
@@ -200,4 +201,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.3.26
+   2.5.5
