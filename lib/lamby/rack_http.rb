@@ -44,7 +44,7 @@ module Lamby
         ::Rack::RACK_ERRORS => $stderr,
         #::Rack::RACK_MULTITHREAD => false,
         #::Rack::RACK_MULTIPROCESS => false,
-        ::Rack::RACK_RUNONCE => false,
+        #::Rack::RACK_RUNONCE => false,
         LAMBDA_EVENT => event,
         LAMBDA_CONTEXT => context
       }.tap do |env|
